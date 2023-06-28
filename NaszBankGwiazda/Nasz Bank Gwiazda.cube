@@ -343,6 +343,95 @@
       </Hierarchies>
     </Dimension>
   </Dimensions>
+  <Perspectives>
+    <Perspective dwd:design-time-name="86aedd55-c53a-4563-bef0-ea74ea4e7f1d">
+      <ID>Perspective</ID>
+      <Name>Analiza liczby rachunków</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Dimensions>
+        <Dimension dwd:design-time-name="f3bb9e42-8441-4d30-b192-10cd2f87ab0a">
+          <CubeDimensionID>Rachunek</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="3e94ba3f-57a0-4965-b40f-e10709470fd7">
+              <AttributeID>Id Rachunku</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="4b1cb3da-b297-414d-b307-5f83a42946f0">
+              <AttributeID>Data Zalozenia</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="d1654075-b0d9-4466-96dd-f7ea35de6346">
+              <AttributeID>Imie Wlasciciela</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="fa7c8578-b2fd-4347-b4e8-64756dbb67f3">
+              <AttributeID>Nazwisko Wlasciciela</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="17a10aab-45eb-43a0-92dd-6a598def1490">
+              <AttributeID>Data Urodzenia Wlasciciela</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="f5a157af-7a36-40d2-b6a7-9166a8809f5a">
+              <AttributeID>Plec Wlasciciela</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="dfbfcd06-528a-4505-b602-99c75bcddcba">
+              <AttributeID>Id Miasta Wlasciciela T</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="4fa7132f-1141-41e6-8d61-14e6c451c8d5">
+              <AttributeID>Dzielnica Wlasciciela</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="635b6c75-355a-40b3-83a6-8ec1d735c5c3">
+              <AttributeID>Miasto Wlasciciela</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="0fa8ba33-c2df-41b4-a2b1-615604db1758">
+              <AttributeID>Wojewodztwo Wlasciciela</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="cafb908e-2958-44a5-8045-0734694cc762">
+              <AttributeID>Grupa Aktywnosci</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="defd493c-8e40-4546-91f8-1f1e5530d45e">
+              <AttributeID>Rok Założenia Rachunku</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="0003f207-023f-404b-803a-3b1d9203d0fe">
+              <AttributeID>Personalia Właściciela</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="facc0581-0afe-48d1-b803-e4ef2605aa9c">
+              <AttributeID>Wiek Właściciela</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="b134e5f0-5a5b-4060-b3a5-6302aba3f2cc">
+              <AttributeID>Sortowanie Grup Aktywności</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="3e64a835-44a2-4f09-b7ca-9d5357438dc6">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+            <Hierarchy dwd:design-time-name="f6093d4a-f590-4e1d-8b20-75c053e0e9d3">
+              <HierarchyID>Hierarchy 1</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+      </Dimensions>
+      <MeasureGroups>
+        <MeasureGroup dwd:design-time-name="b620f4c6-da5b-4a76-88c0-8692a5cb692e">
+          <MeasureGroupID>Rachunek</MeasureGroupID>
+          <Measures>
+            <Measure dwd:design-time-name="59c92996-077b-45db-8292-fd40594d7237">
+              <MeasureID>Rachunek Count</MeasureID>
+            </Measure>
+          </Measures>
+        </MeasureGroup>
+      </MeasureGroups>
+      <Calculations>
+        <Calculation dwd:design-time-name="762a8f56-8282-4847-a4f4-ca5a65e88f5b">
+          <Name>[Measures].[Procent populacji rachunków]</Name>
+          <Type>Member</Type>
+        </Calculation>
+      </Calculations>
+      <Kpis>
+        <Kpi dwd:design-time-name="eca318b3-15ce-456b-9eda-252c44dbbed7">
+          <KpiID>KPI 1</KpiID>
+        </Kpi>
+      </Kpis>
+    </Perspective>
+  </Perspectives>
   <MeasureGroups>
     <MeasureGroup dwd:design-time-name="c9430327-2344-4059-b8de-798fd51ab703">
       <ID>Transakcje</ID>
