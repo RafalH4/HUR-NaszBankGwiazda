@@ -125,6 +125,12 @@
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Translations>
+    <Translation dwd:design-time-name="71ed5386-fab0-46f9-9198-3fa463cba4dc">
+      <Language>2057</Language>
+      <Caption>Time</Caption>
+    </Translation>
+  </Translations>
   <Attributes>
     <Attribute dwd:design-time-name="bab6914f-d4b2-4908-8c48-9a55ead971d0">
       <ID>Id Czasu</ID>
@@ -147,6 +153,12 @@
           <ColumnID>Data</ColumnID>
         </Source>
       </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="b3ae1f1e-e935-4c6f-8568-045bfdc6de61">
+          <Language>2057</Language>
+          <Caption>Date</Caption>
+        </Translation>
+      </Translations>
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="cc9fd40f-3d06-4815-a7c3-889ec6829bd1">
           <AttributeID>Dzien</AttributeID>
@@ -178,6 +190,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="b672a5ca-7d20-4f5e-a93e-f54bc05c6b6e">
+          <Language>2057</Language>
+          <Caption>Day</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -195,6 +213,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="cc3a4ac2-b4aa-455f-b7ba-1aed78d0a395">
+          <Language>2057</Language>
+          <Caption>Month</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -227,6 +251,12 @@
           <ColumnID>Kwartał_x0020_w_x0020_roku</ColumnID>
         </Source>
       </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="30f443ca-bf18-42f7-b870-cd1c5adf17b5">
+          <Language>2057</Language>
+          <Caption>Quarter</Caption>
+        </Translation>
+      </Translations>
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="b4085c29-4e59-4927-8816-fe11455ff917">
           <AttributeID>Rok</AttributeID>
@@ -251,6 +281,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="96ec6a89-897f-4956-934e-a949e0e813fd">
+          <Language>2057</Language>
+          <Caption>Year</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -268,6 +304,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="c8001dcf-9f38-4202-8980-79333ad840ae">
+          <Language>2057</Language>
+          <Caption>Day of week</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -301,6 +343,21 @@
           <ColumnID>Miesiąc_x0020_w_x0020_roku</ColumnID>
         </Source>
       </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="209ea746-e5eb-44ae-98f3-0b7da28d0361">
+          <Language>2057</Language>
+          <Caption>Month name</Caption>
+          <CaptionColumn dwd:design-time-name="49afc177-204f-4097-8047-dfe0a8c0f596">
+            <DataType>WChar</DataType>
+            <DataSize>50</DataSize>
+            <Collation>Latin1_General_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="547c6db6-a8d4-446a-af62-51c6926e8cca">
+              <TableID>dbo_Czas</TableID>
+              <ColumnID>NazwaMiesiacaAngielska</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+      </Translations>
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="3130e3f4-90d6-4e21-9200-a0136edfa76d">
           <AttributeID>Miesiac</AttributeID>
@@ -332,6 +389,21 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="a2a0cdee-cf72-4982-8d0a-d4047a315a63">
+          <Language>2057</Language>
+          <Caption>Day of week name</Caption>
+          <CaptionColumn dwd:design-time-name="42ef8ebc-ebff-4085-aa4c-2d1f4b0f9a29">
+            <DataType>WChar</DataType>
+            <DataSize>50</DataSize>
+            <Collation>Latin1_General_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0797e792-74b6-4968-9bf7-6cf1757a4738">
+              <TableID>dbo_Czas</TableID>
+              <ColumnID>NazwaDniaTygodniaAngielska</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+      </Translations>
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="e074d7ec-f85f-428f-ab0a-898b44f9372e">
           <AttributeID>Dzien Tygodnia</AttributeID>
@@ -348,11 +420,23 @@
     <Hierarchy dwd:design-time-name="a410c5db-e375-4ab5-a226-3d8d4540bb57">
       <ID>Hierarchy</ID>
       <Name>Hierarchia kalendarzowa</Name>
+      <Translations>
+        <Translation dwd:design-time-name="bb84213c-368c-4bc8-b844-cee93f37eb89">
+          <Language>2057</Language>
+          <Caption>Calendar Hierarchy</Caption>
+        </Translation>
+      </Translations>
       <Levels>
         <Level dwd:design-time-name="f4b41e94-63f1-4eeb-954d-e56333d3757d">
           <ID>Rok</ID>
           <Name>Rok</Name>
           <SourceAttributeID>Rok</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="5a764ca8-ca2f-432b-bd51-0d34553087bc">
+              <Language>2057</Language>
+              <Caption>Year</Caption>
+            </Translation>
+          </Translations>
         </Level>
         <Level dwd:design-time-name="2c885180-8ce3-4413-b7fa-67c3540a1d00">
           <ID>Kwartal</ID>
@@ -363,43 +447,91 @@
           <ID>Nazwa miesiąca</ID>
           <Name>Nazwa miesiąca</Name>
           <SourceAttributeID>Nazwa Miesiaca Polska</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="8e827f15-6c92-4ea2-8b83-fcfce107b9c7">
+              <Language>2057</Language>
+              <Caption>Month name</Caption>
+            </Translation>
+          </Translations>
         </Level>
         <Level dwd:design-time-name="d025dbd2-5f7a-4f79-a120-0579185f2636">
           <ID>Data</ID>
           <Name>Data</Name>
           <SourceAttributeID>Id Czasu</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="c3886201-4156-46f7-9da0-bbc8a977d3ec">
+              <Language>2057</Language>
+              <Caption>Date</Caption>
+            </Translation>
+          </Translations>
         </Level>
       </Levels>
     </Hierarchy>
     <Hierarchy dwd:design-time-name="e5482b46-d382-435a-8672-6bf356b6b40c">
       <ID>Hierarchy 1</ID>
       <Name>Hierarchia Rok Dzień tygodnia</Name>
+      <Translations>
+        <Translation dwd:design-time-name="d337d0aa-fe39-4dd3-8139-752ba0ce9460">
+          <Language>2057</Language>
+          <Caption>Year Day of Week Hierarchy</Caption>
+        </Translation>
+      </Translations>
       <Levels>
         <Level dwd:design-time-name="f84b420d-3156-4fcd-984b-f5a0bf613191">
           <ID>Rok</ID>
           <Name>Rok</Name>
           <SourceAttributeID>Rok</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="3a4499b0-e463-4164-9c9a-c047ed4d6ebc">
+              <Language>2057</Language>
+              <Caption>Year</Caption>
+            </Translation>
+          </Translations>
         </Level>
         <Level dwd:design-time-name="f01fede4-f3cd-430e-96b5-296c656d37e5">
           <ID>Nazwa dnia tygodnia</ID>
           <Name>Nazwa dnia tygodnia</Name>
           <SourceAttributeID>Nazwa Dnia Tygodnia Polska</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="2a24c944-164f-4796-b1a4-892f7a9134f2">
+              <Language>2057</Language>
+              <Caption>Day of week name</Caption>
+            </Translation>
+          </Translations>
         </Level>
       </Levels>
     </Hierarchy>
     <Hierarchy dwd:design-time-name="8118962c-70c2-440f-9b54-98b7c51c868f">
       <ID>Hierarchy 1 1</ID>
       <Name>Hierarchia Rok Dzień</Name>
+      <Translations>
+        <Translation dwd:design-time-name="49fa404e-305c-48ca-9230-0ac315d63ddc">
+          <Language>2057</Language>
+          <Caption>Year Day of Month Hierarchy</Caption>
+        </Translation>
+      </Translations>
       <Levels>
         <Level dwd:design-time-name="63c54977-8da4-4b27-97ef-a896d20c947a">
           <ID>Rok</ID>
           <Name>Rok</Name>
           <SourceAttributeID>Rok</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="dd9e97f3-f071-47d6-a886-8a9b3221f1ea">
+              <Language>2057</Language>
+              <Caption>Year</Caption>
+            </Translation>
+          </Translations>
         </Level>
         <Level dwd:design-time-name="7b4714e9-94b9-449e-b3f1-e540128ae32f">
           <ID>Dzień</ID>
           <Name>Dzień</Name>
           <SourceAttributeID>Dzien</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="1a3e4eea-9f61-4f85-b683-e57a8b8b22f5">
+              <Language>2057</Language>
+              <Caption>Day</Caption>
+            </Translation>
+          </Translations>
         </Level>
       </Levels>
     </Hierarchy>

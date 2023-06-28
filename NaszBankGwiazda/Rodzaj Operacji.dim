@@ -99,6 +99,12 @@
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Translations>
+    <Translation dwd:design-time-name="5e2a2b40-5a57-4c89-b130-5aaacc98c261">
+      <Language>2057</Language>
+      <Caption>Operation</Caption>
+    </Translation>
+  </Translations>
   <Attributes>
     <Attribute dwd:design-time-name="34f41e5b-6f7e-4000-8a41-9c6cb7c6b082">
       <ID>Id Rodzaju Operacji</ID>
@@ -121,6 +127,21 @@
           <ColumnID>Rodzaj</ColumnID>
         </Source>
       </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="27804d71-2298-4570-b696-1e412c70bd3d">
+          <Language>2057</Language>
+          <Caption>Kind of operation</Caption>
+          <CaptionColumn dwd:design-time-name="a870b120-3f3a-4d73-ac93-be2d6bce13c2">
+            <DataType>WChar</DataType>
+            <DataSize>150</DataSize>
+            <Collation>Latin1_General_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6904c71c-dee7-46d0-83b4-c35e32abaac4">
+              <TableID>dbo_RodzajOperacji</TableID>
+              <ColumnID>RodzajAngielski</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+      </Translations>
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="e61ccfed-addb-40eb-b749-2d4e91413ada">
           <AttributeID>Typ</AttributeID>
@@ -148,6 +169,21 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="7ec0ac7f-b52c-497f-a24d-7093ac4bb273">
+          <Language>2057</Language>
+          <Caption>Type</Caption>
+          <CaptionColumn dwd:design-time-name="b051f70e-29a2-44ae-b6c2-b916c36f0a13">
+            <DataType>WChar</DataType>
+            <DataSize>50</DataSize>
+            <Collation>Latin1_General_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0766a637-06bd-4a1f-bb3e-1080e3c45686">
+              <TableID>dbo_RodzajOperacji</TableID>
+              <ColumnID>Typ</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -175,16 +211,34 @@
     <Hierarchy dwd:design-time-name="82de2488-c6b6-44a4-b332-066d46ebd251">
       <ID>Hierarchy</ID>
       <Name>Hierarchia Typ Rodzaj</Name>
+      <Translations>
+        <Translation dwd:design-time-name="44ce82d1-4a63-4280-8ec7-fba62a982e30">
+          <Language>2057</Language>
+          <Caption>Type Kind Hierarchy</Caption>
+        </Translation>
+      </Translations>
       <Levels>
         <Level dwd:design-time-name="12621477-1669-4184-b116-5fcc27125bd4">
           <ID>Typ</ID>
           <Name>Typ</Name>
           <SourceAttributeID>Typ</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="4809f196-11be-4ce6-b7f7-5b7012f60e74">
+              <Language>2057</Language>
+              <Caption>Type</Caption>
+            </Translation>
+          </Translations>
         </Level>
         <Level dwd:design-time-name="950e7ba9-cd46-49db-8898-d6fbe79e1123">
           <ID>Rodzaj</ID>
           <Name>Rodzaj</Name>
           <SourceAttributeID>Id Rodzaju Operacji</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="4e6864f4-9925-4b8a-b0d3-5c4d40af410d">
+              <Language>2057</Language>
+              <Caption>Kind of operation</Caption>
+            </Translation>
+          </Translations>
         </Level>
       </Levels>
     </Hierarchy>

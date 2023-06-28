@@ -190,10 +190,22 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
+  <Translations>
+    <Translation dwd:design-time-name="96067d41-5f81-4a7e-89d7-ccd7a478bfd9">
+      <Language>2057</Language>
+      <Caption>Bank Star Schema</Caption>
+    </Translation>
+  </Translations>
   <Dimensions>
     <Dimension dwd:design-time-name="bc2f850e-43a2-44bf-bac0-f052623fec8e">
       <ID>Czas</ID>
       <Name>Czas</Name>
+      <Translations>
+        <Translation dwd:design-time-name="ea4acaec-8262-41ea-8e30-4f0f717be2be">
+          <Language>2057</Language>
+          <Caption>Time</Caption>
+        </Translation>
+      </Translations>
       <DimensionID>Czas</DimensionID>
       <Attributes>
         <Attribute dwd:design-time-name="04da45fc-a6f9-4fc9-a733-3214c7178163">
@@ -236,6 +248,12 @@
     <Dimension dwd:design-time-name="1e238c65-6f71-4aca-928b-d428bdbc9427">
       <ID>Rodzaj Operacji</ID>
       <Name>Rodzaj Operacji</Name>
+      <Translations>
+        <Translation dwd:design-time-name="85179bb3-f523-4ded-96f2-3179e1f187ce">
+          <Language>2057</Language>
+          <Caption>Operation</Caption>
+        </Translation>
+      </Translations>
       <DimensionID>Rodzaj Operacji</DimensionID>
       <Attributes>
         <Attribute dwd:design-time-name="2b19bb9b-3242-4a26-9ffc-972efbcfd2cc">
@@ -258,6 +276,12 @@
     <Dimension dwd:design-time-name="f8a7fac8-57e6-4159-b9d4-75b194b7ddad">
       <ID>Oddział Banku</ID>
       <Name>Oddział Banku</Name>
+      <Translations>
+        <Translation dwd:design-time-name="ccf070c2-0991-43e0-a791-6277fd8edd1d">
+          <Language>2057</Language>
+          <Caption>Branch</Caption>
+        </Translation>
+      </Translations>
       <DimensionID>Oddział Banku</DimensionID>
       <Attributes>
         <Attribute dwd:design-time-name="97ce06ab-d274-4b01-b815-e57fa65d1f9c">
@@ -285,6 +309,12 @@
     <Dimension dwd:design-time-name="5b686bd9-051a-4636-8973-95bc3140d98c">
       <ID>Rachunek</ID>
       <Name>Rachunek</Name>
+      <Translations>
+        <Translation dwd:design-time-name="b74e5b74-bbbf-49c4-9d91-9a1ff7b584b0">
+          <Language>2057</Language>
+          <Caption>Account</Caption>
+        </Translation>
+      </Translations>
       <DimensionID>Rachunek</DimensionID>
       <Attributes>
         <Attribute dwd:design-time-name="edc2df86-540d-4c7a-a347-d2cd93851727">
@@ -349,6 +379,12 @@
       <Name>Analiza liczby rachunków</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Translations>
+        <Translation dwd:design-time-name="2143096c-eb89-4339-83d2-a2788e798538">
+          <Language>2057</Language>
+          <Caption>Number of account analysis</Caption>
+        </Translation>
+      </Translations>
       <Dimensions>
         <Dimension dwd:design-time-name="f3bb9e42-8441-4d30-b192-10cd2f87ab0a">
           <CubeDimensionID>Rachunek</CubeDimensionID>
@@ -440,6 +476,12 @@
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
+      <Translations>
+        <Translation dwd:design-time-name="c962da0d-7a39-46ff-af63-a586aabb9436">
+          <Language>2057</Language>
+          <Caption>Transactions</Caption>
+        </Translation>
+      </Translations>
       <Measures>
         <Measure dwd:design-time-name="d7fe33d7-d43a-4bc2-b7e7-bd8276dcffd9">
           <ID>Sumaryczna Kwota</ID>
@@ -452,6 +494,12 @@
             </Source>
           </Source>
           <FormatString>#,##.00 zł;-#,##.00 zł</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="d6193c1b-5b52-4048-bb5a-9fa2292f0aa1">
+              <Language>2057</Language>
+              <Caption>Amount</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="e50d0535-3d1c-4f60-9e44-1d081240f69e">
           <ID>Liczba Operacji</ID>
@@ -464,6 +512,12 @@
             </Source>
           </Source>
           <FormatString>#,#</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="6160245a-9a56-4682-91e3-9c77222a9b8d">
+              <Language>2057</Language>
+              <Caption>Quantity</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="a95cfa6a-16c7-49ae-91c7-9f474a83d093">
           <ID>Transakcje Count</ID>
@@ -477,6 +531,12 @@
             </Source>
           </Source>
           <FormatString>#,#</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="2743dbca-14d4-4b7d-bf3b-710ee0015431">
+              <Language>2057</Language>
+              <Caption>Count of transactions</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="35f9a4a6-4e88-4a65-9234-ea315cf4f1a6">
           <ID>Bilans</ID>
@@ -489,6 +549,12 @@
             </Source>
           </Source>
           <FormatString>#,#.00 zł;-#,#.00 zł</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="c1fed62d-c889-432c-9e75-a96283348f2a">
+              <Language>2057</Language>
+              <Caption>Balance</Caption>
+            </Translation>
+          </Translations>
         </Measure>
       </Measures>
       <StorageMode>Molap</StorageMode>
@@ -576,6 +642,12 @@
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
+      <Translations>
+        <Translation dwd:design-time-name="d870745d-6455-48fe-996c-ef150beed605">
+          <Language>2057</Language>
+          <Caption>Account</Caption>
+        </Translation>
+      </Translations>
       <Measures>
         <Measure dwd:design-time-name="6e8b6cbc-2b30-4129-bbc7-8907edf77a2b">
           <ID>Rachunek Count</ID>
@@ -588,6 +660,12 @@
               <TableID>dbo_Rachunek</TableID>
             </Source>
           </Source>
+          <Translations>
+            <Translation dwd:design-time-name="f47548c8-50e2-46bf-8d66-f3d7146ba83e">
+              <Language>2057</Language>
+              <Caption>Count of account</Caption>
+            </Translation>
+          </Translations>
         </Measure>
       </Measures>
       <StorageMode>Molap</StorageMode>
@@ -664,12 +742,50 @@ CREATE DYNAMIC SET CURRENTCUBE.[Top 10]
 ([Rachunek].[Numer rachunku].[Numer rachunku].MEMBERS, 10 ,[Measures].[Bilans]) ; </Text>
         </Command>
       </Commands>
+      <CalculationProperties>
+        <CalculationProperty dwd:design-time-name="78b8a5df-09fb-4f0b-a9af-d22fc605b142">
+          <CalculationReference>Operacje gotówkowe</CalculationReference>
+          <CalculationType>Set</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="813314d0-0788-4282-84cf-37e4dc83ed0b">
+              <Language>2057</Language>
+              <Caption>Cash operations</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="fe28ac58-aa98-4677-be1c-e830e08cc548">
+          <CalculationReference>Top 10 Static</CalculationReference>
+          <CalculationType>Set</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="9784f8f9-07ab-492c-9f0c-5b72dfcfd990">
+              <Language>2057</Language>
+              <Caption>Top 10 static</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="bb08399e-d8cd-4206-9b4d-49cfb26a6042">
+          <CalculationReference>Top 10</CalculationReference>
+          <CalculationType>Set</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="534b0f56-aa25-465a-a3e3-bcfdabab5d14">
+              <Language>2057</Language>
+              <Caption>Top 10</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+      </CalculationProperties>
     </MdxScript>
   </MdxScripts>
   <Kpis>
     <Kpi dwd:design-time-name="1bbe0024-621e-44be-b850-20a5353cb798">
       <ID>KPI</ID>
       <Name>Pułap_bilansu</Name>
+      <Translations>
+        <Translation dwd:design-time-name="25157af5-4e94-4d3f-8c95-a7e961d6ba30">
+          <Language>2057</Language>
+          <Caption>Balance_sheet</Caption>
+        </Translation>
+      </Translations>
       <Value>[Measures].[Bilans]</Value>
       <Goal>1000000</Goal>
       <Status>CASE
@@ -686,6 +802,12 @@ END</Status>
     <Kpi dwd:design-time-name="98c43cc2-13f0-4681-81fa-0f2d01400694">
       <ID>KPI 1</ID>
       <Name>Udział_grup_aktywności</Name>
+      <Translations>
+        <Translation dwd:design-time-name="7abd3483-318f-43ea-b174-ca9404e72a19">
+          <Language>2057</Language>
+          <Caption>Participation_activity_groups</Caption>
+        </Translation>
+      </Translations>
       <Value>[Measures].[Procent populacji rachunków]</Value>
       <Goal>CASE
 WHEN [Rachunek].[Grupa aktywnosci].CurrentMember IS
