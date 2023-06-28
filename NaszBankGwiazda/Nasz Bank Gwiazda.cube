@@ -1,0 +1,472 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d0bf7e39-fa0e-46e9-bcc7-6a6b5def9c2b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Nasz Bank Gwiazda</ID>
+  <Name>Nasz Bank Gwiazda</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="10" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2992" scrolltop="1918" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="20066" y="9567" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Oddział banku" left="20" top="7400" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3535" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000cf0d00003b0d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_OddzialBanku" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Rodzaj operacji" left="5765" top="13187" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3725" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00008d0e0000d30b0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_RodzajOperacji" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Czas" left="11890" top="6681" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="5122" height="4826" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e000002140000da120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Czas" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Rachunek" left="4918" top="0" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="4572" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000dc11000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Rachunek" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Transakcje" left="5955" top="7580" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="3535" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000cf0d0000d30b0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Transakcje" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3255" top="8694" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fk_oddzial]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="5" sourceattachpoint="19" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3555" y="9093" />
+              <point x="5955" y="9093" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="7228" top="10307" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="799" height="3380" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fk_operacja]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="5" sourceattachpoint="6" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7627" y="13187" />
+              <point x="7627" y="11897" />
+              <point x="7722" y="11897" />
+              <point x="7722" y="10607" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="9190" top="8695" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fk_czas]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="5" sourceattachpoint="26" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="11890" y="9094" />
+              <point x="10690" y="9094" />
+              <point x="10690" y="9093" />
+              <point x="9490" y="9093" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="6805" top="4501" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="1217" height="3379" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fk_konto]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="5" sourceattachpoint="7" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7204" y="5000" />
+              <point x="7204" y="6290" />
+              <point x="7722" y="6290" />
+              <point x="7722" y="7580" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2992</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>1918</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>75</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="bc2f850e-43a2-44bf-bac0-f052623fec8e">
+      <ID>Czas</ID>
+      <Name>Czas</Name>
+      <DimensionID>Czas</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="04da45fc-a6f9-4fc9-a733-3214c7178163">
+          <AttributeID>Id Czasu</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2d89322f-4740-42d6-9bdd-de334fbc4318">
+          <AttributeID>Dzien</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6fa4afd3-d891-45a0-9d56-0ca18c2462c2">
+          <AttributeID>Miesiac</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="25d1c627-4975-443d-87d4-c298ff51026d">
+          <AttributeID>Kwartal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c634ccfb-1417-429c-b8a5-ec35cefb5eac">
+          <AttributeID>Rok</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7899b6b0-d55d-4aa5-97c6-949384239e6b">
+          <AttributeID>Dzien Tygodnia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="55df597e-abe7-414f-b017-c8aacec684e2">
+          <AttributeID>Nazwa Miesiaca Polska</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4579292e-8ed3-4d58-b41a-42d85f23a913">
+          <AttributeID>Nazwa Dnia Tygodnia Polska</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="32b1d9ed-69e3-4330-b166-04d17a8b180e">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="c8a3903a-57e6-457e-ab3d-01ec5df62002">
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="50a1e41e-1895-4842-a616-0d5d85f06acf">
+          <HierarchyID>Hierarchy 1 1</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="1e238c65-6f71-4aca-928b-d428bdbc9427">
+      <ID>Rodzaj Operacji</ID>
+      <Name>Rodzaj Operacji</Name>
+      <DimensionID>Rodzaj Operacji</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="2b19bb9b-3242-4a26-9ffc-972efbcfd2cc">
+          <AttributeID>Id Rodzaju Operacji</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1aa61a78-d3fb-418c-9c04-cea649701227">
+          <AttributeID>Typ</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="452ea2e7-20b9-489b-8d88-33f4576ec451">
+          <AttributeID>Typ Angielski</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="4a9e7d46-d2b1-4ef3-a4c1-8a57d8d0f1d9">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="f8a7fac8-57e6-4159-b9d4-75b194b7ddad">
+      <ID>Oddział Banku</ID>
+      <Name>Oddział Banku</Name>
+      <DimensionID>Oddział Banku</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="97ce06ab-d274-4b01-b815-e57fa65d1f9c">
+          <AttributeID>Id Oddzialu Banku</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="59ad4da7-1880-42bb-a940-554a3c95b3ed">
+          <AttributeID>Id Miasta T</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5e701bf1-85d1-49ba-b761-da8544716f35">
+          <AttributeID>Dzielnica</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7caf0b15-16af-4aea-a0d3-816b222790a4">
+          <AttributeID>Miasto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="42be2f55-4fe1-40f7-ae28-9922e406c56f">
+          <AttributeID>Wojewodztwo</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="906fdc4f-2955-4a01-93bf-b12db5662581">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="5b686bd9-051a-4636-8973-95bc3140d98c">
+      <ID>Rachunek</ID>
+      <Name>Rachunek</Name>
+      <DimensionID>Rachunek</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="edc2df86-540d-4c7a-a347-d2cd93851727">
+          <AttributeID>Id Rachunku</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5901293e-18b0-4fe7-ba0d-d336f6bb3839">
+          <AttributeID>Data Zalozenia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b84f7a71-cc85-40d3-bff4-ae46a7f01216">
+          <AttributeID>Imie Wlasciciela</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f7fed894-79d5-4a4f-89da-71bbd19f012f">
+          <AttributeID>Nazwisko Wlasciciela</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e5ae6e0d-4d81-4a0d-8e24-0cd60864a473">
+          <AttributeID>Data Urodzenia Wlasciciela</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c965b920-ebef-40d4-970d-4d4d5e13c49e">
+          <AttributeID>Plec Wlasciciela</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c77eaed4-af3d-4859-8c71-90102bfd0a61">
+          <AttributeID>Id Miasta Wlasciciela T</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b6291f04-a494-49c7-a02f-c57ebacc973b">
+          <AttributeID>Dzielnica Wlasciciela</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a45c8824-b8ca-4a27-b674-8210290c5fec">
+          <AttributeID>Miasto Wlasciciela</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dfea941e-a349-4e34-b170-77ff80aacd38">
+          <AttributeID>Wojewodztwo Wlasciciela</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="25b24453-6d45-4734-95dc-d022d2436adf">
+          <AttributeID>Grupa Aktywnosci</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4b42f41a-a265-4f81-975f-02393e701efc">
+          <AttributeID>Rok Założenia Rachunku</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f1502a22-0cc3-43bd-a456-4275766e332b">
+          <AttributeID>Personalia Właściciela</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a8ed89ba-d89b-48c9-acbd-d0fb4bbea8e0">
+          <AttributeID>Wiek Właściciela</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="88fc22c2-9803-4f7d-a7df-557fa1329719">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="fc4955bd-e907-4683-9dbb-34b712f7c848">
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="c9430327-2344-4059-b8de-798fd51ab703">
+      <ID>Transakcje</ID>
+      <Name>Transakcje</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="d7fe33d7-d43a-4bc2-b7e7-bd8276dcffd9">
+          <ID>Sumaryczna Kwota</ID>
+          <Name>Sumaryczna kwota</Name>
+          <Source dwd:design-time-name="a29c4d66-891f-4768-af59-2128f6b01029">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c9fabf79-a8fa-48fa-b975-6d9f4634508c">
+              <TableID>dbo_Transakcje</TableID>
+              <ColumnID>SumarycznaKwota</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,##.00 zł;-#,##.00 zł</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="e50d0535-3d1c-4f60-9e44-1d081240f69e">
+          <ID>Liczba Operacji</ID>
+          <Name>Liczba operacji</Name>
+          <Source dwd:design-time-name="e1050cd6-fedc-42e1-98bd-845bab875747">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9fc018d7-60ba-464f-aac3-e158e461cedf">
+              <TableID>dbo_Transakcje</TableID>
+              <ColumnID>LiczbaOperacji</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,#</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="a95cfa6a-16c7-49ae-91c7-9f474a83d093">
+          <ID>Transakcje Count</ID>
+          <Name>Zlicz transakcje</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="a3fd7106-b5a8-457e-8ab4-e332db87ea84">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="b5a3642c-f62e-48a4-851a-56f050965989">
+              <TableID>dbo_Transakcje</TableID>
+            </Source>
+          </Source>
+          <FormatString>#,#</FormatString>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3a810cff-85af-44ea-8913-83260a0e00d9">
+          <CubeDimensionID>Czas</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="af98075f-b2c9-4965-8d2c-2424cc573de5">
+              <AttributeID>Id Czasu</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ccf8fc0e-a66d-403f-a6ab-1659628c88db">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="543767ae-4443-4d0c-bdd5-9b70faaade87">
+                    <TableID>dbo_Transakcje</TableID>
+                    <ColumnID>IdCzasu</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="86589a50-450d-431f-b70e-e17d01dfaf30">
+          <CubeDimensionID>Rodzaj Operacji</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b5fb21f9-b831-47bc-8d3f-794060d316bf">
+              <AttributeID>Id Rodzaju Operacji</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="067e8c8e-e855-4a1b-860e-9d8678848cc3">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a7565d64-3722-4d9f-b80c-9fbc64e2aa08">
+                    <TableID>dbo_Transakcje</TableID>
+                    <ColumnID>IdRodzajuOperacji</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8308a4f8-0578-4f33-8f58-2ba89aafdbaf">
+          <CubeDimensionID>Oddział Banku</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1f2ca2ab-703e-4d73-a0cd-6cd15512730d">
+              <AttributeID>Id Oddzialu Banku</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ba032e06-5a0d-48d8-afed-226f366e6ce9">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4ccc88b0-7ca7-4f7b-ad81-a5374971ec87">
+                    <TableID>dbo_Transakcje</TableID>
+                    <ColumnID>IdOddzialuBanku</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ec794048-85e1-4ac7-a9a8-f4b377c3a26f">
+          <CubeDimensionID>Rachunek</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6e67f0d6-7a22-4179-8606-10ac2b2a5e8f">
+              <AttributeID>Id Rachunku</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="43b27414-d9af-41c8-987f-fccf9be2f31e">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d2455de8-70e8-4990-9f70-c4e08f3e6bfc">
+                    <TableID>dbo_Transakcje</TableID>
+                    <ColumnID>IdRachunku</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="83e239ff-c0fb-41d6-94ef-dee7d2f6119b">
+    <DataSourceViewID>Nasz Bank Gwiazda</DataSourceViewID>
+  </Source>
+</Cube>
