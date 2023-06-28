@@ -21,5 +21,25 @@
         </Partition>
       </Partitions>
     </MeasureGroup>
+    <MeasureGroup>
+      <ID>Rachunek</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="be7a47a4-94b7-4342-aaea-efcc18dd5295">
+          <ID>Rachunek</ID>
+          <Name>Rachunek</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="fc73b3ba-8931-456f-88d9-6014c6ebc2c2">
+            <DataSourceViewID>Nasz Bank Gwiazda</DataSourceViewID>
+            <TableID>dbo_Rachunek</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
   </MeasureGroups>
 </Cube>

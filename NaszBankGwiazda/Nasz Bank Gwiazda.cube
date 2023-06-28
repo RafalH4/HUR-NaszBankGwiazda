@@ -329,6 +329,9 @@
         <Attribute dwd:design-time-name="a8ed89ba-d89b-48c9-acbd-d0fb4bbea8e0">
           <AttributeID>Wiek Właściciela</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="67ff02ea-164f-4ae0-a4aa-bb1acce20eea">
+          <AttributeID>Sortowanie Grup Aktywności</AttributeID>
+        </Attribute>
       </Attributes>
       <Hierarchies>
         <Hierarchy dwd:design-time-name="88fc22c2-9803-4f7d-a7df-557fa1329719">
@@ -466,6 +469,51 @@
                   <DataType>Integer</DataType>
                   <Source xsi:type="ColumnBinding" dwd:design-time-name="d2455de8-70e8-4990-9f70-c4e08f3e6bfc">
                     <TableID>dbo_Transakcje</TableID>
+                    <ColumnID>IdRachunku</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="92f533d9-5ca7-476b-a01c-71c90a26a316">
+      <ID>Rachunek</ID>
+      <Name>Rachunek</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="6e8b6cbc-2b30-4129-bbc7-8907edf77a2b">
+          <ID>Rachunek Count</ID>
+          <Name>Zlicz rachunki</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="50195911-cc51-4109-b0d9-f012fe9c2312">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="9442412a-a98e-420f-9885-5d8e2a5359dc">
+              <TableID>dbo_Rachunek</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="2406b348-dff0-44ba-a229-65d59dfa534d">
+          <CubeDimensionID>Rachunek</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="89ce4839-cbec-48d1-862e-bf0b2218fdd8">
+              <AttributeID>Id Rachunku</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="657090aa-66a9-4070-a8ce-f94b0377d5fa">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1f8425e8-81c8-4744-8e23-7ea79ffd7d4b">
+                    <TableID>dbo_Rachunek</TableID>
                     <ColumnID>IdRachunku</ColumnID>
                   </Source>
                 </KeyColumn>

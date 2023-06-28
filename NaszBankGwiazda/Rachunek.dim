@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1430" scrolltop="-3585" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7472" y="9567" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1430" scrolltop="-3585" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7472" y="11896" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
             </font>
@@ -70,16 +70,16 @@
       <Value>
         <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
           <Shapes NodeWidth="248">
-            <Shape Id="Id Rachunku" Expanded="false">
+            <Shape Id="Id Rachunku" Expanded="true">
               <Attributes>
                 <Attribute Id="Id Rachunku" />
                 <Attribute Id="Data Urodzenia Wlasciciela" />
                 <Attribute Id="Data Zalozenia" />
                 <Attribute Id="Dzielnica Wlasciciela" />
-                <Attribute Id="Grupa Aktywnosci" />
                 <Attribute Id="Imie Wlasciciela" />
                 <Attribute Id="Miasto Wlasciciela" />
                 <Attribute Id="Plec Wlasciciela" />
+                <Attribute Id="Wiek Właściciela" />
               </Attributes>
               <Position x="20" y="20" />
             </Shape>
@@ -94,19 +94,26 @@
               <Attributes>
                 <Attribute Id="Rok Założenia Rachunku" />
               </Attributes>
-              <Position x="335" y="69" />
+              <Position x="335" y="94" />
+            </Shape>
+            <Shape Id="Grupa Aktywnosci" Expanded="true">
+              <Attributes>
+                <Attribute Id="Grupa Aktywnosci" />
+                <Attribute Id="Sortowanie Grup Aktywności" />
+              </Attributes>
+              <Position x="335" y="143" />
             </Shape>
             <Shape Id="Id Miasta Wlasciciela T" Expanded="false">
               <Attributes>
                 <Attribute Id="Id Miasta Wlasciciela T" />
               </Attributes>
-              <Position x="335" y="118" />
+              <Position x="335" y="192" />
             </Shape>
             <Shape Id="Wojewodztwo Wlasciciela" Expanded="false">
               <Attributes>
                 <Attribute Id="Wojewodztwo Wlasciciela" />
               </Attributes>
-              <Position x="650" y="118" />
+              <Position x="650" y="192" />
             </Shape>
           </Shapes>
         </DiagramLayout>
@@ -380,7 +387,15 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <OrderBy>Key</OrderBy>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="61bf5ece-54a5-47fd-8fda-1dbaf101b8f0">
+          <AttributeID>Sortowanie Grup Aktywności</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Sortowanie Grup Aktywności</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeKey</OrderBy>
+      <OrderByAttributeID>Sortowanie Grup Aktywności</OrderByAttributeID>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -438,6 +453,21 @@
       <DiscretizationMethod>Clusters</DiscretizationMethod>
       <DiscretizationBucketCount>7</DiscretizationBucketCount>
       <AttributeHierarchyDisplayFolder>Dane właściciela</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="81f0e229-8b54-4199-a6f0-b6afe9e7bec5">
+      <ID>Sortowanie Grup Aktywności</ID>
+      <Name>Sortowanie Grup Aktywności</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9a7ade7d-7af1-450f-b243-2225b4788ff4">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="798a5f75-4495-415f-aca9-f7a3c0a455ba">
+            <TableID>dbo_Rachunek</TableID>
+            <ColumnID>Sortowanie_x0020_grup_x0020_aktywności</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>

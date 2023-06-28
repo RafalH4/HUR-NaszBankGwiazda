@@ -28,7 +28,7 @@
             <Name>_ALL_TABLES_</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="10" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4286" scrolltop="-1058" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="19791" y="13187" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="10" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4286" scrolltop="4225" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="19791" y="13187" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
                   </font>
@@ -175,7 +175,7 @@
             <ShowRelationshipNames>False</ShowRelationshipNames>
             <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
             <DiagramViewPortLeft>-4286</DiagramViewPortLeft>
-            <DiagramViewPortTop>-1058</DiagramViewPortTop>
+            <DiagramViewPortTop>4225</DiagramViewPortTop>
             <DiagramBoundingLeft>0</DiagramBoundingLeft>
             <DiagramBoundingTop>0</DiagramBoundingTop>
             <DiagramZoom>75</DiagramZoom>
@@ -356,6 +356,7 @@
                     </xs:simpleType>
                   </xs:element>
                   <xs:element name="Wiek_x0020_właściciela" msdata:ReadOnly="true" msprop:DbColumnName="Wiek właściciela" msprop:IsLogical="True" msprop:ComputedColumnExpression="2010 - year(DataURodzeniaWlasciciela)" msprop:design-time-name="b28b2a80-b531-430b-b0af-a4672c8478a4" msprop:Description="Wiek właściciela rachunku" type="xs:int" minOccurs="0" />
+                  <xs:element name="Sortowanie_x0020_grup_x0020_aktywności" msdata:ReadOnly="true" msprop:Description="Sortowanie grup aktywności" msprop:design-time-name="81553412-2b89-4ce0-aba0-57aecaade2ce" msprop:IsLogical="True" msprop:DbColumnName="Sortowanie grup aktywności" msprop:ComputedColumnExpression="CASE GrupaAktywnosci&#xD;&#xA;WHEN 'Bardzo niska' THEN 6&#xD;&#xA;WHEN 'Niska' THEN 5&#xD;&#xA;WHEN 'Średnia' THEN 4&#xD;&#xA;WHEN 'Wysoka' THEN 3&#xD;&#xA;WHEN 'Bardzo wysoka' THEN 2&#xD;&#xA;ELSE 1&#xD;&#xA;END" type="xs:int" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
@@ -404,7 +405,7 @@
                   <xs:element name="IdRodzajuOperacji" msprop:FriendlyName="IdRodzajuOperacji" msprop:DbColumnName="IdRodzajuOperacji" msprop:design-time-name="0ad7174b-00f5-4dff-8ce1-60010f9e7a96" type="xs:int" minOccurs="0" />
                   <xs:element name="SumarycznaKwota" msprop:FriendlyName="SumarycznaKwota" msprop:DbColumnName="SumarycznaKwota" msprop:design-time-name="663f75fd-b697-485f-ac9e-d0f035289ce8" type="xs:decimal" minOccurs="0" />
                   <xs:element name="LiczbaOperacji" msprop:FriendlyName="LiczbaOperacji" msprop:DbColumnName="LiczbaOperacji" msprop:design-time-name="7774b83d-1f9b-460c-83f4-7b79b0aff484" type="xs:decimal" minOccurs="0" />
-                  <xs:element name="Bilans" msprop:design-time-name="4836362a-97da-450d-b713-10f3b502bce7" msprop:DbColumnName="Bilans" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Bilans" msprop:DbColumnName="Bilans" msprop:design-time-name="4836362a-97da-450d-b713-10f3b502bce7" type="xs:decimal" minOccurs="0" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
